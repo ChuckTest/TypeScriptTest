@@ -1,1 +1,3 @@
-let numbers: number[] = [1, 2, '3'];
+function calculateTax(income: number) {
+    return 0;
+}
