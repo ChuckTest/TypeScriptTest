@@ -1,3 +1,3 @@
 function calculateTax(income: number): number {
-    return 'a';
+    return 0;
 }
