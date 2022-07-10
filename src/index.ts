@@ -1,5 +1,5 @@
 let employee: {
     id: number,
-    name: string
+    name?: string
 } = { id: 1 };
 employee.name = 'Chuck';
