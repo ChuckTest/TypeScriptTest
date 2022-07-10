@@ -1,3 +1,5 @@
-function calculateTax(income: number): number {
-    return 0;
+function calculateTax(income: number) {
+    if (income < 50_000) {
+        return income * 1.2;
+    }
 }
