@@ -1,4 +1,5 @@
 let employee: {
-    id: number,
+    readonly id: number,
     name: string
 } = { id: 1, name: 'Chuck' };
+employee.id = 0;
